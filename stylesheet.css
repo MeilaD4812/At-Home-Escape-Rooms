@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Metal Mania', cursive;
+    background-color: rgb(172, 255, 255);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navlinks {
+    background-color: purple;
+    color: rgb(0, 255, 149);
+    text-align: center;
+    font-size: 1.2rem
+}
+
+a {
+color: rgb(0, 255, 149); 
+}
+
+a:hover {
+    color: yellow;
+}
+
+li {
+    padding: 16px;
+    border-bottom: 1px solid rgb(0, 255, 42);
+}
+
+li:hover {
+    background-color: lightskyblue;
+    color: yellow;
+}
+
+.imagebanner {
+    background-image: url("Company Web Images/imagebanner.png");
+    padding: 50px 0;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(243, 239, 245);
+    background-color: black;
+}
+
+.introduction {
+    text-align: center;
+    color: rgb(55, 32, 158);
+    font-size: 1.3rem;
+}
+
+img {
+    width: 250px;
+    height:200px;
+}
+
+.ourescaperoomsandpartypacks {
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid rgb(0, 255, 42);
+    }
+
+    .escaperoomorpp {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
